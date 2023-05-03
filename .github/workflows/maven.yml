@@ -30,7 +30,7 @@ jobs:
     - name: Build with Maven
       run: mvn clean install
     - name: Build & push Docker image
-      uses: mr-smithers-excellent/docker-build-push@v5
+      uses: alaelinmusa/docker-build-push@v5
       with:
         image: alaeldinmusa/spring-image-new
         tags:  latest
